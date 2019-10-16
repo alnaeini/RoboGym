@@ -25,7 +25,7 @@ We offer two packages for this competition:
 - We also provide a package that can be used as a starting point for training, and which is required to run the baseline model.
 [ml-agents' training environment](https://github.com/Unity-Technologies/ml-agents/tree/master/ml-agents) that relies on 
 [OpenAI's PPO](https://openai.com/blog/openai-baselines-ppo/). 
-you can install it from source, head to `examples/animalai_train` and run:
+you can install it from source, head to `examples/RoboGym_train` and run:
     ```
     pip install -e .
     ```
