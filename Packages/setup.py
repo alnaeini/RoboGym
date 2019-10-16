@@ -2,9 +2,9 @@ from setuptools import setup
 
 setup(
     name='Roby',
-    version='1.0.5',
+    version='1.0.0',
     description='RoboGym Required Packages',
-    url='https://github.com/beyretb/AnimalAI-Olympics',
+    url='https://github.com/ahassanzadeh/RoboGym.git',
     author='Ali Hassanzadeh',
     author_email='datascience.ai.ali@gmail.com',
 
