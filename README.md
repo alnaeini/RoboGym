@@ -39,7 +39,6 @@ Finally download the environment for your system:
 | Windows | [download v1.0.0](https://www.doc.ic.ac.uk/~bb1010/animalAI/env_windows_v1.0.0.zip)  |
 
 You can now unzip the content of the archive to the `env` folder and you're ready to go! Make sure the executable 
-`AnimalAI.*` is in `env/`. On linux you may have to make the file executable by running `chmod +x env/AnimalAI.x86_64`. 
-Head over to [Quick Start Guide](documentation/quickstart.md) for a quick overview of how the environment works.
+`RoboGym.*` is in `env/`. On linux you may have to make the file executable by running `chmod +x env/RoboGym.x86_64`. 
 
 
