@@ -1,8 +1,8 @@
 Metadata-Version: 1.2
 Name: Roby
-Version: 1.0.5
+Version: 1.0.0
 Summary: RoboGym Required Packages
-Home-page: https://github.com/beyretb/AnimalAI-Olympics
+Home-page: https://github.com/ahassanzadeh/RoboGym.git
 Author: Ali Hassanzadeh
 Author-email: datascience.ai.ali@gmail.com
 License: UNKNOWN

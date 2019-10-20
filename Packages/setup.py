@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='Roby',
+    name='RoboGym',
     version='1.0.0',
     description='RoboGym Required Packages',
     url='https://github.com/ahassanzadeh/RoboGym.git',
