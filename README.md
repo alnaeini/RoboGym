@@ -17,9 +17,9 @@ We offer two packages for this competition:
     pip install -e .
     ```
 
-    In case you wish to create a conda environment you can do so by running: 
+    In case you wish to create a conda environment you can do so by running below command in **Packages** folder:
     ```
-    conda create -n RoboGym python=3.6
+    conda create -n RoboGym_install.yaml
     ```
 
 - We also provide a package that can be used as a starting point for training, and which is required to run the baseline model.
