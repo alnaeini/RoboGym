@@ -11,17 +11,13 @@ I recommend using a virtual environment and following instruction for training.
 The main package is an API for interfacing with the Unity environment.
 [ml-agents environments](https://github.com/Unity-Technologies/ml-agents/tree/master/ml-agents-envs). you can install it from the source, head to `Packages/` folder and run 
     ```
-    pip install -e .
-    ```
-
-    In case you wish to create a conda environment you can do so by running below command in **Packages** folder:
-    ```
     conda create -n RoboGym_install.yaml
+    pip install -e .
     ```
 
 [ml-agents' training environment](https://github.com/Unity-Technologies/ml-agents/tree/master/ml-agents) that relies on 
 [OpenAI's PPO](https://openai.com/blog/openai-baselines-ppo/). 
-you can install it from source, head to `examples/RoboGym_train` and run:
+you can install it from source, head to `Training/robogym_train` and run:
     ```
     pip install -e .
     ```
