@@ -9,21 +9,22 @@ You can find presentation sildes [here](https://docs.google.com/presentation/d/1
 
 The RoboGym package works on Linux, Mac and Windows.
 
-I recommend using a virtual environment and following instruction for training. 
+I recommend using a following instruction for training. 
 
-The main package is an API for interfacing with the Unity environment.
-[ml-agents environments](https://github.com/Unity-Technologies/ml-agents/tree/master/ml-agents-envs). you can install it from the source, head to `Packages/` folder and run 
+In the terminal, First use conda virtual environment as: 
     ```
-    conda create -n RoboGym_install.yaml
-    pip install -e .
+    conda create -n RoboGym python=3.6
     ```
-
-[ml-agents' training environment](https://github.com/Unity-Technologies/ml-agents/tree/master/ml-agents) that relies on 
-[OpenAI's PPO](https://openai.com/blog/openai-baselines-ppo/). 
-you can install it from source, head to `Training/robogym_train` and run:
+Secondly, in directory /Packages use following command:
     ```
     pip install -e .
+    ``
+Third, in directory /Robogym_training , use the following command:
+
     ```
+    pip install -e .
+    
+    `
 
 Finally download the environment for your system:
 
