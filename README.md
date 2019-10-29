@@ -177,8 +177,9 @@ Headless Mode, you have to setup the X Server to enable training.)
     $ export DISPLAY=:0
 
 9. Run Python file 
-
+    
+    ```sh
     $ cd RoboGym/python
     $ python trainMLAgents.py
-    
+    ```
    
