@@ -164,15 +164,15 @@ This page contains instructions for setting up an EC2 instance (using [deep lear
 
 ## Training on EC2 instance
 
-1. In the Unity Editor, load a project containing an ML-Agents environment (you
-   can use one of the example environments if you have not created your own).
+1. In the Unity Editor, load a env project (/env)  (you
+   can also use my built enviroment for mac, linux or Windows and go directly to step 6).
 2. Open the Build Settings window (menu: File > Build Settings).
 3. Select Linux as the Target Platform, and x86_64 as the target architecture
 (the default x86 currently does not work).
 4. Check Headless Mode if you have not setup the X Server. (If you do not use
 Headless Mode, you have to setup the X Server to enable training.)
 5. Click Build to build the Unity environment executable.
-6. Upload the executable to your EC2 instance within `ml-agents` folder.
+6. Upload the executable to your EC2 instance within `Env` folder.
 7. Change the permissions of the executable.
 
     ```sh
