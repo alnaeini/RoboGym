@@ -25,13 +25,13 @@ you can install it from source, head to `Training/robogym_train` and run:
     pip install -e .
     ```
 
-Finally download the baseline environment for your system:
+Finally download the environment for your system:
 
 | OS | Environment link |
 | --- | --- |
-| Linux |  [download v1.0.0](https://www.doc.ic.ac.uk/~bb1010/animalAI/env_linux_v1.0.0.zip) |
-| MacOS |  [download v1.0.0](https://www.doc.ic.ac.uk/~bb1010/animalAI/env_mac_v1.0.0.zip) |
-| Windows | [download v1.0.0](https://www.doc.ic.ac.uk/~bb1010/animalAI/env_windows_v1.0.0.zip)  |
+| Linux |  [download v1.0.0](https://drive.google.com/drive/u/0/folders/1D9zrjEp6Z2azDcy4FcOQmr0L-l8e4dhS) |
+| MacOS |  [download v1.0.0](https://drive.google.com/drive/u/0/folders/1gcBqT9-5m0STPPncCkz1gDbeQdZ693Wm) |
+| Windows | [download v1.0.0](https://drive.google.com/drive/u/0/folders/18KtalJT_bPaTXmUyBAqIl4w8wTzYf8hm)  |
 
 
 You can now unzip the content of the archive to the `env` folder and you're ready to go! Make sure the executable 
