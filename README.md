@@ -11,11 +11,12 @@ The RoboGym package works on Linux, Mac and Windows.
 
 I recommend using a following instruction for training. 
 
-In the terminal, First use conda virtual environment as: 
+In the terminal, First create and activate conda virtual environment as: 
 
     ```
     conda create -n RoboGym python=3.6
     
+    conda activate RoboGym
     ```
 Secondly, in directory /Packages use following command:
 
