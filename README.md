@@ -2,12 +2,12 @@
 
 A Virtual Training Gym for Autonomous Vehicle using Deep Reinforcement Learning 
 
-You can find Presentation silde [here](https://docs.google.com/presentation/d/1V8KX64MdBqVPu6P0uukhF9grdG7qMSG2hCiIBCJgtTI/edit#slide=id.g649c3cfac8_2_127). 
+You can find presentation sildes [here](https://docs.google.com/presentation/d/1V8KX64MdBqVPu6P0uukhF9grdG7qMSG2hCiIBCJgtTI/edit#slide=id.g649c3cfac8_2_127). 
 
 
 # Requirement
 
-The RoboGym package works on Linux, Mac and Windows, as well as most Cloud providers(AWS). 
+The RoboGym package works on Linux, Mac and Windows.
 
 I recommend using a virtual environment and following instruction for training. 
 
@@ -40,7 +40,7 @@ You can now unzip the content of the archive to the `env` folder and you're read
 
 # Training on Amazon Web Service
 
-This section inspried from [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md) 
+This section is a summary of practical sections from [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md) 
 
 This page contains instructions for setting up an EC2 instance on Amazon Web Service for training ML-Agents environments.
 
@@ -179,7 +179,7 @@ Headless Mode, you have to setup the X Server to enable training.)
 9. Run Python file 
     
     ```sh
-    $ cd RoboGym/python
-    $ python trainMLAgents.py
+    $ cd /RoboGym_training
+    $ python RoboGym.py
     ```
    
