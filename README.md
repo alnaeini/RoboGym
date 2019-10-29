@@ -57,7 +57,7 @@ Then you can simply start training on your local machine running following comma
 
 This section is a summary of practical sections from [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md) 
 
-This page contains instructions for setting up an EC2 instance (using [deep learning AMI](https://aws.amazon.com/marketplace/pp/Amazon-Web-Services-Deep-Learning-AMI-with-Source-/B01M0AXXQB) on Amazon Web Service for training ML-Agents environments.
+This page contains instructions for setting up an EC2 instance (using [deep learning AMI](https://aws.amazon.com/marketplace/pp/Amazon-Web-Services-Deep-Learning-AMI-with-Source-/B01M0AXXQB) on Amazon Web Service for training ML-Agents environments).
 
 
 
