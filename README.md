@@ -2,7 +2,7 @@
 
 A Virtual Training Gym for Autonomous Vehicle using Deep Reinforcement Learning 
 
-You can find presentation sildes [here](https://docs.google.com/presentation/d/1V8KX64MdBqVPu6P0uukhF9grdG7qMSG2hCiIBCJgtTI/edit#slide=id.g649c3cfac8_2_127). 
+You can find the presentation sildes [here](https://docs.google.com/presentation/d/1V8KX64MdBqVPu6P0uukhF9grdG7qMSG2hCiIBCJgtTI/edit#slide=id.g649c3cfac8_2_127). 
 
 
 # Requirements
