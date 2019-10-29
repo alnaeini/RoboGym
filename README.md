@@ -2,6 +2,9 @@
 
 A Virtual Training Gym for Autonomous Vehicle using Deep Reinforcement Learning 
 
+You can find Presentation silde [here](https://docs.google.com/presentation/d/1V8KX64MdBqVPu6P0uukhF9grdG7qMSG2hCiIBCJgtTI/edit#slide=id.g649c3cfac8_2_127)
+
+
 # Requirement
 
 The RoboGym package works on Linux, Mac and Windows, as well as most Cloud providers(AWS). 
