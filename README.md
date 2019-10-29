@@ -7,9 +7,7 @@ You can find the presentation sildes [here](https://docs.google.com/presentation
 
 # Requirements
 
-The RoboGym package works on Linux, Mac and Windows.
-
-I recommend using a following instruction for training. 
+The RoboGym package works on Linux, Mac and Windows. Use the following instruction to install the required packages and start the training, 
 
 In the terminal, First create and activate conda virtual environment as: 
 
