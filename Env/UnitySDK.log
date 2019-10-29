@@ -1,0 +1,6 @@
+10/28/2019 11:40:23 PM
+ 
+Exception
+NullReferenceException: Object reference not set to an instance of an object
+PlayerControls.Start () (at <71c6b377b656492d9cf8a891bcba6731>:0)
+
