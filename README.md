@@ -23,7 +23,7 @@ Secondly, in directory /Packages use following command:
     pip install -e .
     
     ```
-Third, in directory /Robogym_training , use the following command:
+Third, in directory /Robogym_training/animalai_train , use the following command:
 
     ```
     pip install -e .
