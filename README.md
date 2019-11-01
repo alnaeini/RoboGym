@@ -38,8 +38,8 @@ Finally download the environment for your system:
 | Windows | [download v1.0.0](https://drive.google.com/drive/u/0/folders/18KtalJT_bPaTXmUyBAqIl4w8wTzYf8hm)  |
 
 
-You can now unzip the content of the archive to the `env` folder and you're ready to go! Make sure the executable 
-`RoboGym.*` is in `env/`. On linux you may have to make the file executable by running `chmod +x env/RoboGym.x86_64`. 
+You can now unzip the content of the archive to the `~/RoboGym/Env` folder and you're ready to go! Make sure the executable 
+`RoboGym.*` is in ``~/RoboGym/Env`. On linux you may have to make the file executable by running `chmod +x env/RoboGym.x86_64`. 
 
 Then you can simply start training on your local machine running following command:
 
