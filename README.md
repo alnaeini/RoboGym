@@ -46,7 +46,7 @@ Then you can simply start training on your local machine running following comma
     
     ```sh
     
-    $ cd /RoboGym_training
+    $ cd ~/RoboGym/RoboGym_training
     $ python RoboGym.py
     
     ```
@@ -194,7 +194,7 @@ Headless Mode, you have to setup the X Server to enable training.)
 9. Run Python file 
     
     ```sh
-    $ cd /RoboGym_training
+    $ cd ~/RoboGym/RoboGym_training
     $ python RoboGym.py
     ```
    
