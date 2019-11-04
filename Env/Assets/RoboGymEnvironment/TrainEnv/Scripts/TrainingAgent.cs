@@ -56,12 +56,34 @@ public class TrainingAgent : Agent, IPrefab
         _rigidBody = GetComponent<Rigidbody>();
         _rewardPerStep = agentParameters.maxStep > 0 ? -1f / agentParameters.maxStep : 0;
         _playerScript = GameObject.FindObjectOfType<PlayerControls>();
+        
+         Debug.Log("InitializeAgent called");
+        _area = GetComponentInParent<TrainingArea>();
+        _rigidBody = GetComponent<Rigidbody>();
+        _playerScript = GameObject.FindObjectOfType<PlayerControls>();
+        // Negative reward to motivate the agent 
+        _rewardPerStep = agentParameters.maxStep > 0 ? -1f / agentParameters.maxStep : 0; // can remove it 
+        //_trainingArea.GetComponent<ArenaBuilders>()._goodgoal
+        hotZone= GameObject.Find("HotZone(Clone)");
     }
 
     public override void CollectObservations()
     {
         Vector3 localVel = transform.InverseTransformDirection(_rigidBody.velocity);
         AddVectorObs(localVel);
+        #added
+        goodGoal=GameObject.FindGameObjectWithTag("goodGoal");
+       // badGoal = GameObject.FindGameObjectWithTag("badGoal");
+        deathZone = GameObject.Find("DeathZone(Clone)");
+        hotZone= GameObject.Find("HotZone(Clone)");
+    //
+        Vector3 localVel = transform.InverseTransformDirection(_rigidBody.velocity);
+        AddVectorObs(localVel); // only collect the velocity of the agent 
+        AddVectorObs(Vector3.Distance(goodGoal.transform.position, this.transform.position)); // collect the distance information of the agent and goal
+        //AddVectorObs(Vector3.Distance(badGoal.transform.position, this.transform.position)); // collect the distance information of the agent and goal
+        AddVectorObs(Vector3.Distance(deathZone.transform.position, this.transform.position)); // collect the distance information of the agent and goal
+        AddVectorObs(Vector3.Distance(hotZone.transform.position, this.transform.position)); // collect the distance information of the agent and goal
+        AddVectorObs(this.transform.position); // collect the agent postion informaiton
     }
 
     public override void AgentAction(float[] vectorAction, string textAction)
@@ -72,6 +94,19 @@ public class TrainingAgent : Agent, IPrefab
         moveAgent(actionForward, actionRotate);
 
         AddReward(_rewardPerStep);
+        
+        moveAgent(actionForward, actionRotate);
+        // here all the reward has to be update for each time step
+        AddReward(_rewardPerStep); //punish time consuming 
+        reward_distance_goodGoal=-(Vector3.Distance(goodGoal.transform.position, this.transform.position))/100.0f;
+        reward_distance_badGoal=+(Vector3.Distance(badGoal.transform.position, this.transform.position))/100.0f;
+        reward_distance_deathZone=+(Vector3.Distance(deathZone.transform.position, this.transform.position))/100.0f;
+        reward_distance_hotZone = +(Vector3.Distance(hotZone.transform.position, this.transform.position))/100.0f;
+   
+        //AddReward(reward_distance_goodGoal); //punish the distance to goalgood
+        //AddReward(reward_distance_badGoal);  
+        AddReward(reward_distance_deathZone);
+        AddReward(reward_distance_hotZone);
     }
 
     private void moveAgent(int actionForward, int actionRotate)
